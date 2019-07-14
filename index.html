@@ -1,26 +1,45 @@
-<!DOCTYPE>
 <!DOCTYPE html>
 <html lang="ja" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <script src="https://kit.fontawesome.com/ed02dc24ab.js"></script>
-    <title>simple personal</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>slideshow</title>
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-<div class="box">
-  <img src="IMG_1506 2.JPG" alt="" class="box-image">
-  <h1>Kei Takahashi</h1>
-  <h5>back packer</h5>
-  <p>I'd like to  travel whole world.then i need to make money without VISA.so i started to learn programing.this profile site is my first work for it.</p>
-<ul>
-   <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-   <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
-   <li><a href="#"><i class="fab fa-google-plus-square"></i></a></li>
+    <div class="slidershow middle">
 
-</ul>
-</div>
+      <div class="slides">
+        <input type="radio" name="r" id="r1" checked>
+        <input type="radio" name="r" id="r2">
+        <input type="radio" name="r" id="r3">
+        <input type="radio" name="r" id="r4">
+        <input type="radio" name="r" id="r5">
+        <div class="slide s1">
+          <img src="./image/IMG_0937 2.JPG" alt="">
+        </div>
+        <div class="slide">
+            <img src="./image/IMG_5374.JPG" alt="">
+        </div>
+        <div class="slide">
+          <img src="./image/IMG_6008.JPG" alt="">
+        </div>
+        <div class="slide">
+          <img src="./image/IMG_7003.JPG" alt="">
+        </div>
+        <div class="slide">
+          <img src="./image/IMG_1349 2.JPG" alt="">
+        </div>
 
+      </div>
 
+      <div class="navigation">
+        <label for="r1" class="bar"></label>
+        <label for="r2" class="bar"></label>
+        <label for="r3" class="bar"></label>
+        <label for="r4" class="bar"></label>
+        <label for="r5" class="bar"></label>
+
+      </div>
+    </div>
   </body>
 </html>
